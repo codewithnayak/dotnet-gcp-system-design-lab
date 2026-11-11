@@ -1,0 +1,8 @@
+
+output "registry_url" {
+  value = "${var.region}-docker.pkg.dev/${var.project_id}/${google_artifact_registry_repository.catalog.repository_id}"
+}
+
+output "runtime_service_account" {
+  value = google_service_account.catalog_runtime.email
+}

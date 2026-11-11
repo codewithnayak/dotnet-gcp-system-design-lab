@@ -1,0 +1,14 @@
+<Solution>
+  <Folder Name="/samples/" />
+  <Folder Name="/samples/01-api-design/" />
+  <Folder Name="/samples/01-api-design/src/">
+    <Project Path="samples/01-api-design/src/Catalog.Api/Catalog.Api.csproj" />
+    <Project Path="samples/01-api-design/src/Catalog.Application/Catalog.Application.csproj" />
+    <Project Path="samples/01-api-design/src/Catalog.Domain/Catalog.Domain.csproj" />
+    <Project Path="samples/01-api-design/src/Catalog.Infrastructure/Catalog.Infrastructure.csproj" />
+  </Folder>
+  <Folder Name="/samples/01-api-design/tests/">
+    <Project Path="samples/01-api-design/tests/Catalog.IntegrationTests/Catalog.IntegrationTests.csproj" />
+    <Project Path="samples/01-api-design/tests/Catalog.UnitTests/Catalog.UnitTests.csproj" />
+  </Folder>
+</Solution>
